@@ -107,7 +107,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 #
 # for speed up to keyboard
 defaults write NSGlobalDomain KeyRepeat -int 0
-defaults write -g InitialKeyRepeat -int 3
+defaults write -g InitialKeyRepeat -int 7
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
